@@ -79,6 +79,17 @@
     map.fitBounds(runLayer.getBounds());
    }).addTo(map);
   controlLayers.addOverlay(customLayer, 'Markers from data.csv');
+    
+    var point = [55, 55];
+        var circle = L.circle(
+
+            point, 1000000,
+            {
+                color: 'black',
+                fillColor: 'orange',
+                fillOpacity: 0.8
+            }
+        ).addTo(map);
 
   </script>
 </body>
