@@ -44,11 +44,11 @@
    collapsed: false
   }).addTo(map);
 /*my project*/
-     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    var simple= L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(leafletMap);
-    controlLayers.addBaseLayer(light, 'simple plane basemap');
+    controlLayers.addBaseLayer(simple, 'simple plane basemap');
     
     
     
