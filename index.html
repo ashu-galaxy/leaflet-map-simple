@@ -69,7 +69,7 @@
   //.bindPopup("Insert pop-up text here"); // EDIT pop-up text message
 
   /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
- /* var customLayer = L.geoJson(null, {
+  var customLayer = L.geoJson(null, {
    onEachFeature: function(feature, layer) {
      layer.bindPopup(feature.properties.Title);
    }
@@ -79,11 +79,11 @@
     map.fitBounds(runLayer.getBounds());
    }).addTo(map);
   controlLayers.addOverlay(customLayer, 'Markers from data.csv');
-    */
+    
     var point = [55, 55];
         var circle = L.circle(
 
-            point, 1000000,
+            point, 10000,
             {
                 color: 'black',
                 fillColor: 'orange',
