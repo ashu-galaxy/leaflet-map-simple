@@ -1,3 +1,4 @@
+Title,Address,Latitude,Longitude,Found Address,Match Quality,Source
 Trinity College,"300 Summit St, Hartford CT 06106",41.7486373,-72.6928403,"300 Summit St, Hartford, CT 06106, USA",Match,Google
 Capital Community College,950 Main St Hartford CT 06103,41.7681973,-72.6728601,"950 Main St, Hartford, CT 06103, USA",Match,Google
 University of Hartford,"200 Bloomfield Ave, West Hartford CT 06117",41.7950017,-72.7154937,"200 Bloomfield Ave, West Hartford, CT 06117, USA",Match,Google
